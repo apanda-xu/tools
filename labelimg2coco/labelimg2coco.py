@@ -88,8 +88,7 @@ class labelimg2coco(object):
 
 
 if __name__ == "__main__":
-    xml_files = glob.glob("./*.xml")
+    xml_files = glob.glob("./files/*.xml")
     save_path = "./coco.json"
-    print(xml_files)
     labelimg2coco(xml_files, save_path)
     
