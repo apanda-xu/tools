@@ -5,5 +5,5 @@
 cd labelimg2coco
 python labelimg2coco.py
 ```
-# Json style in labelimg, labelme and COCO
+# Xml style in labelimg and json style in COCO
 see [style.md](https://github.com/apanda-xu/Tools/blob/main/labelme2coco/style.md)
