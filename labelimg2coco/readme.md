@@ -7,3 +7,5 @@ python labelimg2coco.py
 ```
 # Xml style in labelimg and json style in COCO
 see [style.md](https://github.com/apanda-xu/Tools/blob/main/labelme2coco/style.md)
+# References
+[ElementTree解析XML文件](https://blog.csdn.net/u010918487/article/details/90704430)
