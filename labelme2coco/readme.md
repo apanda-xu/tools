@@ -5,3 +5,10 @@
 cd labelme2coco
 python labelme2coco.py
 ```
+# COCO style
+
+
+
+
+**references**
+[COCO数据集的标注格式](https://zhuanlan.zhihu.com/p/29393415)
