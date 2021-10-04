@@ -5,8 +5,42 @@
 cd labelme2coco
 python labelme2coco.py
 ```
-# COCO style
-## for detection and segmentation
+# Json style
+## json in labelme 
+labelme.json
+```json
+{
+    "version": "4.5.9",
+    "flags": {},
+    "shapes": [
+        {
+            "label": "person",
+            "points": [
+                [
+                    236.52941176470586,
+                    112.25490196078431
+                ],
+                [
+                    224.76470588235293,
+                    120.58823529411764
+                ],
+                ...
+            ],
+            "group_id": null,
+            "shape_type": "polygon",
+            "flags": {}
+        },
+        ...
+    ],
+    "imagePath": "1.jpg",
+    "imageData": "/9j/4AAQSkZJRgABAQAAAQABAAD...",
+    "imageHeight": 575,
+    "imageWidth": 640
+}
+```
+## json in COCO
+### for segmentation
+coco.json
 ```json
 {
     "images": [
@@ -15,20 +49,23 @@ python labelme2coco.py
             "width": 640,
             "id": 1,
             "file_name": "1.jpg"
-        }
+        },
+        ...
     ],
     "categories": [
         {
             "supercategory": "Cancer",
             "id": 1,
             "name": "person"
-        }
+        },
+        ...
     ],
     "annotations": [
         {   
             "id": 1,
             "image_id": 1,
             "category_id": 1,
+            "iscrowd": 0,
             "bbox": [
                 48.0,
                 109.0,
@@ -44,16 +81,14 @@ python labelme2coco.py
                     ...
                 ]
             ],
-            "area": 94154.0,
-            "iscrowd": 0
-        }
+            "area": 94154.0
+        },
+        ...
     ]
 }
 ```
+### for detection
+same as the json style in **segmentation** except for without "segmentation".
 
-
-
-
-
-**references**: <br>
+# References
 [COCO数据集的标注格式](https://zhuanlan.zhihu.com/p/29393415)
