@@ -6,7 +6,7 @@ cd labelme2coco
 python labelme2coco.py
 ```
 # Json style
-see [json_style.md](https://github.com/apanda-xu/Tools/blob/main/labelme2coco/json_style.md)
+see [style.md](https://github.com/apanda-xu/Tools/blob/main/labelme2coco/style.md)
 
 # References
 [COCO数据集的标注格式](https://zhuanlan.zhihu.com/p/29393415)
