@@ -134,6 +134,6 @@ class labelme2coco(object):
 
 
 if __name__ == "__main__":
-    json_files = glob.glob("./*.json")
+    json_files = glob.glob("./files/*.json")
     save_path = "./coco.json"
     labelme2coco(json_files, save_path)
