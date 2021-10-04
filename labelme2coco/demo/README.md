@@ -2,6 +2,6 @@
 (1) download demo directory <br>
 (2) 
 ```bash
-cd demo<br>
+cd demo
 python labelme2coco.py
 ```
