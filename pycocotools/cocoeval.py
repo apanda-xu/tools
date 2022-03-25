@@ -1,3 +1,8 @@
+'''
+before using, you should install pycocotools, by this command:
+pip install pycocotools
+'''
+
 from pycocotools.coco import COCO
 from pycocotools.cocoeval import COCOeval
 
