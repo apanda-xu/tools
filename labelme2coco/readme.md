@@ -5,8 +5,9 @@
 cd labelme2coco
 python labelme2coco.py
 ```
-# Json style in labelme and COCO
+# Json format in labelme and COCO are different, please refer to the link
 see [style.md](https://github.com/apanda-xu/Tools/blob/main/labelme2coco/style.md)
 
 # References
 [COCO数据集的标注格式](https://zhuanlan.zhihu.com/p/29393415)
+[Create COCO Annotations From Scratch](https://www.immersivelimit.com/tutorials/create-coco-annotations-from-scratch)
