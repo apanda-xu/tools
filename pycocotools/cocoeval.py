@@ -1,5 +1,5 @@
 '''
-before using, you should install pycocotools, by this command:
+before using, you should install pycocotools by this command:
 pip install pycocotools
 '''
 
